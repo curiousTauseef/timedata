@@ -1,0 +1,5 @@
+export const TOGGL_WORKSPACE_ID = 1868232;
+export const TOGGL_PROJECT_IDS = {
+    BUILDING: 30002732,
+    FIXING_CR: 34208753,
+};
