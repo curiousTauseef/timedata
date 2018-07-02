@@ -2,7 +2,7 @@ export default (tickets, ticket) => {
     if (!tickets[ticket.estimate]) {
         return {
             ...tickets,
-            [ticket.estimate]: [ticket]
+            [ticket.estimate]: [ticket],
         };
     }
     return {

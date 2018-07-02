@@ -1,0 +1,7 @@
+{
+    "extends": ["himynameisdave/configurations/babel-node"],
+    "rules": {
+        "no-console": 0,
+        "no-magic-numbers": 0
+    }
+}

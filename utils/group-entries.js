@@ -24,7 +24,7 @@ export default unsorted => unsorted.reduce((entries, entry) => {
             totalDuration: currentEntry.totalDuration + entry.dur,
             entries: [
                 ...currentEntry.entries,
-                entry
+                entry,
             ],
         },
     };
